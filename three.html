@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>three.js | gyz418</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.7c4bcbe6.css" as="style"><link rel="preload" href="/assets/js/app.6f322a7c.js" as="script"><link rel="preload" href="/assets/js/2.5281df64.js" as="script"><link rel="preload" href="/assets/js/29.d446cc43.js" as="script"><link rel="prefetch" href="/assets/js/10.b5b78ec7.js"><link rel="prefetch" href="/assets/js/11.3979c63f.js"><link rel="prefetch" href="/assets/js/12.ad66bd03.js"><link rel="prefetch" href="/assets/js/13.8c156ce0.js"><link rel="prefetch" href="/assets/js/14.d5aaf7c9.js"><link rel="prefetch" href="/assets/js/15.744185ba.js"><link rel="prefetch" href="/assets/js/16.b223ec11.js"><link rel="prefetch" href="/assets/js/17.27940440.js"><link rel="prefetch" href="/assets/js/18.2561b5d6.js"><link rel="prefetch" href="/assets/js/19.bab52827.js"><link rel="prefetch" href="/assets/js/20.64459c18.js"><link rel="prefetch" href="/assets/js/21.95850c08.js"><link rel="prefetch" href="/assets/js/22.8b92906a.js"><link rel="prefetch" href="/assets/js/23.a2fee047.js"><link rel="prefetch" href="/assets/js/24.a1a3b298.js"><link rel="prefetch" href="/assets/js/25.ba19b2b6.js"><link rel="prefetch" href="/assets/js/26.753266fe.js"><link rel="prefetch" href="/assets/js/27.ee58b5d1.js"><link rel="prefetch" href="/assets/js/28.611ffe65.js"><link rel="prefetch" href="/assets/js/3.d5898f06.js"><link rel="prefetch" href="/assets/js/30.71c0d378.js"><link rel="prefetch" href="/assets/js/31.43e00d33.js"><link rel="prefetch" href="/assets/js/32.a6757d5d.js"><link rel="prefetch" href="/assets/js/33.bfb83c0e.js"><link rel="prefetch" href="/assets/js/34.564690e0.js"><link rel="prefetch" href="/assets/js/35.77a7c9e4.js"><link rel="prefetch" href="/assets/js/36.5e974fda.js"><link rel="prefetch" href="/assets/js/37.f0956a85.js"><link rel="prefetch" href="/assets/js/38.c42b9666.js"><link rel="prefetch" href="/assets/js/39.7262da55.js"><link rel="prefetch" href="/assets/js/4.eb70c47d.js"><link rel="prefetch" href="/assets/js/40.95d088a9.js"><link rel="prefetch" href="/assets/js/41.f7067891.js"><link rel="prefetch" href="/assets/js/42.12cf6162.js"><link rel="prefetch" href="/assets/js/43.7970973b.js"><link rel="prefetch" href="/assets/js/44.701b85aa.js"><link rel="prefetch" href="/assets/js/45.4c06d258.js"><link rel="prefetch" href="/assets/js/46.e5e18c20.js"><link rel="prefetch" href="/assets/js/47.5d0f9322.js"><link rel="prefetch" href="/assets/js/48.03ad2213.js"><link rel="prefetch" href="/assets/js/49.65826398.js"><link rel="prefetch" href="/assets/js/5.8e0377fa.js"><link rel="prefetch" href="/assets/js/50.8a4a5a58.js"><link rel="prefetch" href="/assets/js/6.49592538.js"><link rel="prefetch" href="/assets/js/7.c7371c19.js"><link rel="prefetch" href="/assets/js/8.78f8209a.js"><link rel="prefetch" href="/assets/js/9.823e0afe.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7c4bcbe6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">gyz418</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/前端/es6.html" class="nav-link">
+  es6
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ts.html" class="nav-link">
+  ts
+</a></li><li class="dropdown-item"><!----> <a href="/前端/flutter.html" class="nav-link">
+  flutter
+</a></li><li class="dropdown-item"><!----> <a href="/前端/css.html" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/前端/git.html" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/前端/webpack.html" class="nav-link">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js优化.html" class="nav-link">
+  js优化
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue2源码.html" class="nav-link">
+  vue2源码
+</a></li><li class="dropdown-item"><!----> <a href="/前端/babel.html" class="nav-link">
+  babel
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue3.html" class="nav-link">
+  vue3
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js设计模式.html" class="nav-link">
+  js设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/前端/小程序.html" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/前端/package.json.html" class="nav-link">
+  package.json
+</a></li><li class="dropdown-item"><!----> <a href="/前端/github.html" class="nav-link">
+  github
+</a></li><li class="dropdown-item"><!----> <a href="/前端/eslint.html" class="nav-link">
+  eslint
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nestjs.html" class="nav-link">
+  nestjs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ueditor.html" class="nav-link">
+  ueditor
+</a></li><li class="dropdown-item"><!----> <a href="/typescript.html" class="nav-link">
+  typescript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端相关" class="dropdown-title"><span class="title">前端相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/gulp.html" class="nav-link">
+  gulp
+</a></li><li class="dropdown-item"><!----> <a href="/react.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/js-tools.html" class="nav-link">
+  js-tools
+</a></li><li class="dropdown-item"><!----> <a href="/js特效.html" class="nav-link">
+  js特效
+</a></li><li class="dropdown-item"><!----> <a href="/old.html" class="nav-link">
+  old
+</a></li><li class="dropdown-item"><!----> <a href="/js概念.html" class="nav-link">
+  js概念
+</a></li><li class="dropdown-item"><!----> <a href="/jest.html" class="nav-link">
+  jest
+</a></li><li class="dropdown-item"><!----> <a href="/微前端.html" class="nav-link">
+  微前端
+</a></li><li class="dropdown-item"><!----> <a href="/service worker.html" class="nav-link">
+  service worker
+</a></li><li class="dropdown-item"><!----> <a href="/deno.html" class="nav-link">
+  deno
+</a></li><li class="dropdown-item"><!----> <a href="/swiper.html" class="nav-link">
+  swiper
+</a></li><li class="dropdown-item"><!----> <a href="/nginx.html" class="nav-link">
+  nginx
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/chrome.html" class="nav-link">
+  chrome
+</a></li><li class="dropdown-item"><!----> <a href="/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-item"><!----> <a href="/webstorm.html" class="nav-link">
+  webstorm
+</a></li><li class="dropdown-item"><!----> <a href="/url.html" class="nav-link">
+  url
+</a></li><li class="dropdown-item"><!----> <a href="/pc.html" class="nav-link">
+  pc
+</a></li><li class="dropdown-item"><!----> <a href="/festival.html" class="nav-link">
+  festival
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/前端/es6.html" class="nav-link">
+  es6
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ts.html" class="nav-link">
+  ts
+</a></li><li class="dropdown-item"><!----> <a href="/前端/flutter.html" class="nav-link">
+  flutter
+</a></li><li class="dropdown-item"><!----> <a href="/前端/css.html" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/前端/git.html" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/前端/webpack.html" class="nav-link">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js优化.html" class="nav-link">
+  js优化
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue2源码.html" class="nav-link">
+  vue2源码
+</a></li><li class="dropdown-item"><!----> <a href="/前端/babel.html" class="nav-link">
+  babel
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue3.html" class="nav-link">
+  vue3
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js设计模式.html" class="nav-link">
+  js设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/前端/小程序.html" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/前端/package.json.html" class="nav-link">
+  package.json
+</a></li><li class="dropdown-item"><!----> <a href="/前端/github.html" class="nav-link">
+  github
+</a></li><li class="dropdown-item"><!----> <a href="/前端/eslint.html" class="nav-link">
+  eslint
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nestjs.html" class="nav-link">
+  nestjs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ueditor.html" class="nav-link">
+  ueditor
+</a></li><li class="dropdown-item"><!----> <a href="/typescript.html" class="nav-link">
+  typescript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端相关" class="dropdown-title"><span class="title">前端相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/gulp.html" class="nav-link">
+  gulp
+</a></li><li class="dropdown-item"><!----> <a href="/react.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/js-tools.html" class="nav-link">
+  js-tools
+</a></li><li class="dropdown-item"><!----> <a href="/js特效.html" class="nav-link">
+  js特效
+</a></li><li class="dropdown-item"><!----> <a href="/old.html" class="nav-link">
+  old
+</a></li><li class="dropdown-item"><!----> <a href="/js概念.html" class="nav-link">
+  js概念
+</a></li><li class="dropdown-item"><!----> <a href="/jest.html" class="nav-link">
+  jest
+</a></li><li class="dropdown-item"><!----> <a href="/微前端.html" class="nav-link">
+  微前端
+</a></li><li class="dropdown-item"><!----> <a href="/service worker.html" class="nav-link">
+  service worker
+</a></li><li class="dropdown-item"><!----> <a href="/deno.html" class="nav-link">
+  deno
+</a></li><li class="dropdown-item"><!----> <a href="/swiper.html" class="nav-link">
+  swiper
+</a></li><li class="dropdown-item"><!----> <a href="/nginx.html" class="nav-link">
+  nginx
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/chrome.html" class="nav-link">
+  chrome
+</a></li><li class="dropdown-item"><!----> <a href="/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-item"><!----> <a href="/webstorm.html" class="nav-link">
+  webstorm
+</a></li><li class="dropdown-item"><!----> <a href="/url.html" class="nav-link">
+  url
+</a></li><li class="dropdown-item"><!----> <a href="/pc.html" class="nav-link">
+  pc
+</a></li><li class="dropdown-item"><!----> <a href="/festival.html" class="nav-link">
+  festival
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>three.js</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/three.html#three-js" class="sidebar-link">three.js</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/three.html#demo" class="sidebar-link">demo</a></li><li class="sidebar-sub-header"><a href="/three.html#demo01" class="sidebar-link">demo01</a></li><li class="sidebar-sub-header"><a href="/three.html#demo02" class="sidebar-link">demo02</a></li><li class="sidebar-sub-header"><a href="/three.html#demo03" class="sidebar-link">demo03</a></li><li class="sidebar-sub-header"><a href="/three.html#demo04" class="sidebar-link">demo04</a></li><li class="sidebar-sub-header"><a href="/three.html#demo05" class="sidebar-link">demo05</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="three-js"><a href="#three-js" class="header-anchor">#</a> three.js</h2> <h3 id="demo"><a href="#demo" class="header-anchor">#</a> demo</h3> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">body</span><span class="token punctuation">{</span><span class="token property">margin</span><span class="token punctuation">:</span>0<span class="token punctuation">;</span><span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://threejs.org/build/three.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">var</span> scene <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Scene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 场景</span>
+  <span class="token keyword">var</span> camera <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>PerspectiveCamera</span><span class="token punctuation">(</span> <span class="token number">75</span><span class="token punctuation">,</span> window<span class="token punctuation">.</span>innerWidth<span class="token operator">/</span>window<span class="token punctuation">.</span>innerHeight<span class="token punctuation">,</span> <span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">1000</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 相机</span>
+
+  <span class="token keyword">var</span> renderer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>WebGLRenderer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 渲染器</span>
+  renderer<span class="token punctuation">.</span><span class="token function">setSize</span><span class="token punctuation">(</span> window<span class="token punctuation">.</span>innerWidth<span class="token punctuation">,</span> window<span class="token punctuation">.</span>innerHeight <span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 渲染器尺寸</span>
+  document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span> renderer<span class="token punctuation">.</span>domElement <span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 添加到body</span>
+
+  <span class="token keyword">var</span> geometry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>BoxGeometry</span><span class="token punctuation">(</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 立方体</span>
+  <span class="token keyword">var</span> material <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>MeshBasicMaterial</span><span class="token punctuation">(</span> <span class="token punctuation">{</span> color<span class="token operator">:</span> <span class="token number">0x00ff00</span> <span class="token punctuation">}</span> <span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 材质，立方体加颜色</span>
+  <span class="token keyword">var</span> cube <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Mesh</span><span class="token punctuation">(</span> geometry<span class="token punctuation">,</span> material <span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 网格，整合立方体和材质</span>
+  scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span> cube <span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 场景添加加网格</span>
+
+  camera<span class="token punctuation">.</span>position<span class="token punctuation">.</span>z <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>    <span class="token comment">// 相机位置 </span>
+
+  <span class="token keyword">var</span> <span class="token function-variable function">animate</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">requestAnimationFrame</span><span class="token punctuation">(</span> animate <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    cube<span class="token punctuation">.</span>rotation<span class="token punctuation">.</span>x <span class="token operator">+=</span> <span class="token number">0.01</span><span class="token punctuation">;</span>    <span class="token comment">// 网格旋转</span>
+    cube<span class="token punctuation">.</span>rotation<span class="token punctuation">.</span>y <span class="token operator">+=</span> <span class="token number">0.01</span><span class="token punctuation">;</span>
+
+    renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span> scene<span class="token punctuation">,</span> camera <span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// 渲染器渲染场景和相机</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token function">animate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>官网demo https://threejs.org/docs/index.html#manual/zh/introduction/Creating-a-scene</p> <h3 id="demo01"><a href="#demo01" class="header-anchor">#</a> demo01</h3> <p>把立方体移到div中</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">body</span><span class="token punctuation">{</span><span class="token property">margin</span><span class="token punctuation">:</span>0<span class="token punctuation">;</span><span class="token punctuation">}</span>
+    <span class="token selector">.a</span><span class="token punctuation">{</span>
+        <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #f00<span class="token punctuation">;</span>
+        <span class="token property">width</span><span class="token punctuation">:</span>400px<span class="token punctuation">;</span>
+        <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+        <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://threejs.org/build/three.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  window<span class="token punctuation">.</span><span class="token function-variable function">onload</span><span class="token operator">=</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">function</span> <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span>
+    <span class="token keyword">var</span> scene <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Scene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> camera <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>PerspectiveCamera</span><span class="token punctuation">(</span> <span class="token number">75</span><span class="token punctuation">,</span> a<span class="token punctuation">.</span>offsetWidth<span class="token operator">/</span>a<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">,</span> <span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">1000</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">var</span> renderer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>WebGLRenderer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setSize</span><span class="token punctuation">(</span> a<span class="token punctuation">.</span>offsetWidth<span class="token punctuation">,</span> a<span class="token punctuation">.</span>offsetHeight <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    a<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>renderer<span class="token punctuation">.</span>domElement<span class="token punctuation">)</span>  <span class="token comment">// 加在a里面</span>
+    <span class="token keyword">var</span> geometry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>BoxGeometry</span><span class="token punctuation">(</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> material <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>MeshBasicMaterial</span><span class="token punctuation">(</span> <span class="token punctuation">{</span> color<span class="token operator">:</span> <span class="token number">0x00ff00</span> <span class="token punctuation">}</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> cube <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Mesh</span><span class="token punctuation">(</span> geometry<span class="token punctuation">,</span> material <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span> cube <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    camera<span class="token punctuation">.</span>position<span class="token punctuation">.</span>z <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+    cube<span class="token punctuation">.</span><span class="token function">rotateX</span><span class="token punctuation">(</span><span class="token number">45</span><span class="token punctuation">)</span>
+    cube<span class="token punctuation">.</span><span class="token function">rotateY</span><span class="token punctuation">(</span><span class="token number">45</span><span class="token punctuation">)</span>
+    renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span> scene<span class="token punctuation">,</span> camera <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="demo02"><a href="#demo02" class="header-anchor">#</a> demo02</h3> <p>obj加载，换相机</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+        <span class="token selector">body</span> <span class="token punctuation">{</span>
+            <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token selector">.a</span> <span class="token punctuation">{</span>
+            <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #f00<span class="token punctuation">;</span>
+            <span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://threejs.org/build/three.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/OBJLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/MTLLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+
+  window<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">function</span> <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span>
+    <span class="token keyword">var</span> scene <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Scene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// obj模型</span>
+    <span class="token keyword">var</span> loader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OBJLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">var</span> width <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetWidth<span class="token punctuation">;</span> <span class="token comment">//窗口宽度</span>
+    <span class="token keyword">var</span> height <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">;</span> <span class="token comment">//窗口高度</span>
+    <span class="token keyword">var</span> k <span class="token operator">=</span> width <span class="token operator">/</span> height<span class="token punctuation">;</span> <span class="token comment">//窗口宽高比</span>
+    <span class="token keyword">var</span> s <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span> <span class="token comment">//三维场景显示范围控制系数，系数越大，显示的范围越大</span>
+    <span class="token comment">//创建相机对象</span>
+    <span class="token keyword">var</span> camera <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OrthographicCamera</span><span class="token punctuation">(</span><span class="token operator">-</span>s <span class="token operator">*</span> k<span class="token punctuation">,</span> s <span class="token operator">*</span> k<span class="token punctuation">,</span> s<span class="token punctuation">,</span> <span class="token operator">-</span>s<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    camera<span class="token punctuation">.</span>position<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机位置</span>
+    camera<span class="token punctuation">.</span><span class="token function">lookAt</span><span class="token punctuation">(</span>scene<span class="token punctuation">.</span>position<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机方向(指向的场景对象)</span>
+
+    <span class="token comment">// 渲染器</span>
+    <span class="token keyword">var</span> renderer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>WebGLRenderer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setSize</span><span class="token punctuation">(</span>width<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置渲染区域尺寸</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setClearColor</span><span class="token punctuation">(</span><span class="token number">0xccbaaa</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置背景颜色</span>
+    a<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>renderer<span class="token punctuation">.</span>domElement<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//body元素中插入canvas对象</span>
+
+    <span class="token comment">// 显示</span>
+    loader<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">'./file.obj'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+      renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>scene<span class="token punctuation">,</span>camera<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="demo03"><a href="#demo03" class="header-anchor">#</a> demo03</h3> <p>加光变白色，加材质补充颜色等</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+        <span class="token selector">body</span> <span class="token punctuation">{</span>
+            <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token selector">.a</span> <span class="token punctuation">{</span>
+            <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #f00<span class="token punctuation">;</span>
+            <span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://threejs.org/build/three.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/OBJLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/MTLLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+
+  window<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">function</span> <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span>
+    <span class="token keyword">var</span> scene <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Scene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// obj模型</span>
+    <span class="token keyword">var</span> loader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OBJLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">var</span> width <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetWidth<span class="token punctuation">;</span> <span class="token comment">//窗口宽度</span>
+    <span class="token keyword">var</span> height <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">;</span> <span class="token comment">//窗口高度</span>
+    <span class="token keyword">var</span> k <span class="token operator">=</span> width <span class="token operator">/</span> height<span class="token punctuation">;</span> <span class="token comment">//窗口宽高比</span>
+    <span class="token keyword">var</span> s <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span> <span class="token comment">//三维场景显示范围控制系数，系数越大，显示的范围越大</span>
+    <span class="token comment">//创建相机对象</span>
+    <span class="token keyword">var</span> camera <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OrthographicCamera</span><span class="token punctuation">(</span><span class="token operator">-</span>s <span class="token operator">*</span> k<span class="token punctuation">,</span> s <span class="token operator">*</span> k<span class="token punctuation">,</span> s<span class="token punctuation">,</span> <span class="token operator">-</span>s<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    camera<span class="token punctuation">.</span>position<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机位置</span>
+    camera<span class="token punctuation">.</span><span class="token function">lookAt</span><span class="token punctuation">(</span>scene<span class="token punctuation">.</span>position<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机方向(指向的场景对象)</span>
+
+    <span class="token comment">// 渲染器</span>
+    <span class="token keyword">var</span> renderer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>WebGLRenderer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setSize</span><span class="token punctuation">(</span>width<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置渲染区域尺寸</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setClearColor</span><span class="token punctuation">(</span><span class="token number">0xccbaaa</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置背景颜色（背景默认黑色，obj加载出来也是黑色）</span>
+    a<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>renderer<span class="token punctuation">.</span>domElement<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//body元素中插入canvas对象</span>
+
+    <span class="token comment">// 【先加材料(颜色等)再加obj】</span>
+    <span class="token keyword">var</span> mtlLoader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>MTLLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    mtlLoader<span class="token punctuation">.</span><span class="token function">setCrossOrigin</span><span class="token punctuation">(</span><span class="token string">'Anonymous'</span><span class="token punctuation">)</span>
+    mtlLoader<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">'./file.mtl'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">materials</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      materials<span class="token punctuation">.</span><span class="token function">preload</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      loader<span class="token punctuation">.</span><span class="token function">setMaterials</span><span class="token punctuation">(</span>materials<span class="token punctuation">)</span>
+      <span class="token function">loadObj</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">function</span> <span class="token function">loadObj</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      loader<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">'./file.obj'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>  <span class="token comment">// 默认是黑色</span>
+        <span class="token comment">//环境光</span>
+        <span class="token keyword">var</span> ambient <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>AmbientLight</span><span class="token punctuation">(</span><span class="token number">0x777777</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>ambient<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">var</span> directionalLight <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>DirectionalLight</span><span class="token punctuation">(</span><span class="token number">0xffffff</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// 设置光源的方向：通过光源position属性和目标指向对象的position属性计算</span>
+        directionalLight<span class="token punctuation">.</span>position<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        directionalLight<span class="token punctuation">.</span>target <span class="token operator">=</span> res<span class="token punctuation">;</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>directionalLight<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// 加光变白色</span>
+        renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>scene<span class="token punctuation">,</span> camera<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="demo04"><a href="#demo04" class="header-anchor">#</a> demo04</h3> <p>动起来</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+        <span class="token selector">body</span> <span class="token punctuation">{</span>
+            <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token selector">.a</span> <span class="token punctuation">{</span>
+            <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #f00<span class="token punctuation">;</span>
+            <span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://threejs.org/build/three.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/OBJLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/MTLLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+
+  window<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">function</span> <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span>
+    <span class="token keyword">var</span> scene <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Scene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// obj模型</span>
+    <span class="token keyword">var</span> loader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OBJLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">var</span> width <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetWidth<span class="token punctuation">;</span> <span class="token comment">//窗口宽度</span>
+    <span class="token keyword">var</span> height <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">;</span> <span class="token comment">//窗口高度</span>
+    <span class="token keyword">var</span> k <span class="token operator">=</span> width <span class="token operator">/</span> height<span class="token punctuation">;</span> <span class="token comment">//窗口宽高比</span>
+    <span class="token keyword">var</span> s <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span> <span class="token comment">//三维场景显示范围控制系数，系数越大，显示的范围越大</span>
+    <span class="token comment">//创建相机对象</span>
+    <span class="token keyword">var</span> camera <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OrthographicCamera</span><span class="token punctuation">(</span><span class="token operator">-</span>s <span class="token operator">*</span> k<span class="token punctuation">,</span> s <span class="token operator">*</span> k<span class="token punctuation">,</span> s<span class="token punctuation">,</span> <span class="token operator">-</span>s<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    camera<span class="token punctuation">.</span>position<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机位置</span>
+    camera<span class="token punctuation">.</span><span class="token function">lookAt</span><span class="token punctuation">(</span>scene<span class="token punctuation">.</span>position<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机方向(指向的场景对象)</span>
+
+    <span class="token comment">// 渲染器</span>
+    <span class="token keyword">var</span> renderer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>WebGLRenderer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setSize</span><span class="token punctuation">(</span>width<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置渲染区域尺寸</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setClearColor</span><span class="token punctuation">(</span><span class="token number">0xccbaaa</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置背景颜色（背景默认黑色，obj加载出来也是黑色）</span>
+    a<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>renderer<span class="token punctuation">.</span>domElement<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//body元素中插入canvas对象</span>
+
+    <span class="token comment">// 【先加材料(颜色等)再加obj】</span>
+    <span class="token keyword">var</span> mtlLoader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>MTLLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    mtlLoader<span class="token punctuation">.</span><span class="token function">setCrossOrigin</span><span class="token punctuation">(</span><span class="token string">'Anonymous'</span><span class="token punctuation">)</span>
+    mtlLoader<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">'./file.mtl'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">materials</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      materials<span class="token punctuation">.</span><span class="token function">preload</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      loader<span class="token punctuation">.</span><span class="token function">setMaterials</span><span class="token punctuation">(</span>materials<span class="token punctuation">)</span>
+      <span class="token function">loadObj</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">function</span> <span class="token function">loadObj</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      loader<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">'./file.obj'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>  <span class="token comment">// 默认是黑色</span>
+        <span class="token comment">//环境光</span>
+        <span class="token keyword">var</span> ambient <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>AmbientLight</span><span class="token punctuation">(</span><span class="token number">0x777777</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>ambient<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">var</span> directionalLight <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>DirectionalLight</span><span class="token punctuation">(</span><span class="token number">0xffffff</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// 设置光源的方向：通过光源position属性和目标指向对象的position属性计算</span>
+        directionalLight<span class="token punctuation">.</span>position<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        directionalLight<span class="token punctuation">.</span>target <span class="token operator">=</span> res<span class="token punctuation">;</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>directionalLight<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// 加光变白色</span>
+        <span class="token comment">// render()  // 渲染</span>
+        <span class="token function">rotate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 动起来</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">function</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>scene<span class="token punctuation">,</span> camera<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">function</span> <span class="token function">rotate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>scene<span class="token punctuation">,</span> camera<span class="token punctuation">)</span>
+      scene<span class="token punctuation">.</span><span class="token function">rotateY</span><span class="token punctuation">(</span><span class="token number">0.01</span><span class="token punctuation">)</span>
+      <span class="token function">requestAnimationFrame</span><span class="token punctuation">(</span>rotate<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>OBJLoader 浪费了不少时间，找不到去哪里引js</p> <p>参考  https://juejin.cn/post/7154616366933213197</p> <p>obj 素材 https://www.aigei.com</p> <h3 id="demo05"><a href="#demo05" class="header-anchor">#</a> demo05</h3> <p>鼠标控制  OribitControls 库  https://github.com/mrdoob/three.js/blob/dev/examples/jsm/controls/OrbitControls.js    把  import {xx} from 'three' 改为  const  xx =  THREE.xx  如<code>const MOUSE = THREE.MOUSE</code></p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+        <span class="token selector">body</span> <span class="token punctuation">{</span>
+            <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token selector">.a</span> <span class="token punctuation">{</span>
+            <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #f00<span class="token punctuation">;</span>
+            <span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+            <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://threejs.org/build/three.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/OBJLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>http://www.yanhuangxueyuan.com/threejs/examples/js/loaders/MTLLoader.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>OrbitControls.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>a<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+
+  window<span class="token punctuation">.</span><span class="token function-variable function">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">function</span> <span class="token function">showBox</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> a <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span>
+    <span class="token keyword">var</span> scene <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>Scene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// obj模型</span>
+    <span class="token keyword">var</span> loader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OBJLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">var</span> width <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetWidth<span class="token punctuation">;</span> <span class="token comment">//窗口宽度</span>
+    <span class="token keyword">var</span> height <span class="token operator">=</span> a<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">;</span> <span class="token comment">//窗口高度</span>
+    <span class="token keyword">var</span> k <span class="token operator">=</span> width <span class="token operator">/</span> height<span class="token punctuation">;</span> <span class="token comment">//窗口宽高比</span>
+    <span class="token keyword">var</span> s <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span> <span class="token comment">//三维场景显示范围控制系数，系数越大，显示的范围越大</span>
+    <span class="token comment">//创建相机对象</span>
+    <span class="token keyword">var</span> camera <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>OrthographicCamera</span><span class="token punctuation">(</span><span class="token operator">-</span>s <span class="token operator">*</span> k<span class="token punctuation">,</span> s <span class="token operator">*</span> k<span class="token punctuation">,</span> s<span class="token punctuation">,</span> <span class="token operator">-</span>s<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    camera<span class="token punctuation">.</span>position<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机位置</span>
+    camera<span class="token punctuation">.</span><span class="token function">lookAt</span><span class="token punctuation">(</span>scene<span class="token punctuation">.</span>position<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置相机方向(指向的场景对象)</span>
+
+    <span class="token comment">// 渲染器</span>
+    <span class="token keyword">var</span> renderer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>WebGLRenderer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setSize</span><span class="token punctuation">(</span>width<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置渲染区域尺寸</span>
+    renderer<span class="token punctuation">.</span><span class="token function">setClearColor</span><span class="token punctuation">(</span><span class="token number">0xccbaaa</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//设置背景颜色（背景默认黑色，obj加载出来也是黑色）</span>
+    a<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>renderer<span class="token punctuation">.</span>domElement<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//body元素中插入canvas对象</span>
+
+    <span class="token comment">// 【先加材料(颜色等)再加obj】</span>
+    <span class="token keyword">var</span> mtlLoader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>MTLLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    mtlLoader<span class="token punctuation">.</span><span class="token function">setCrossOrigin</span><span class="token punctuation">(</span><span class="token string">'Anonymous'</span><span class="token punctuation">)</span>
+    mtlLoader<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">'./file.mtl'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">materials</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      materials<span class="token punctuation">.</span><span class="token function">preload</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      loader<span class="token punctuation">.</span><span class="token function">setMaterials</span><span class="token punctuation">(</span>materials<span class="token punctuation">)</span>
+      <span class="token function">loadObj</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">function</span> <span class="token function">loadObj</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      loader<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">'./file.obj'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>  <span class="token comment">// 默认是黑色</span>
+        <span class="token comment">//环境光</span>
+        <span class="token keyword">var</span> ambient <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>AmbientLight</span><span class="token punctuation">(</span><span class="token number">0x777777</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>ambient<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">var</span> directionalLight <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">THREE<span class="token punctuation">.</span>DirectionalLight</span><span class="token punctuation">(</span><span class="token number">0xffffff</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">// 设置光源的方向：通过光源position属性和目标指向对象的position属性计算</span>
+        directionalLight<span class="token punctuation">.</span>position<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        directionalLight<span class="token punctuation">.</span>target <span class="token operator">=</span> res<span class="token punctuation">;</span>
+        scene<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>directionalLight<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// 加光变白色</span>
+        <span class="token comment">// render()  // 渲染</span>
+        <span class="token function">rotate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 动起来</span>
+        <span class="token comment">// 控制</span>
+        <span class="token function">control</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">function</span> <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>scene<span class="token punctuation">,</span> camera<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">function</span> <span class="token function">rotate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      renderer<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>scene<span class="token punctuation">,</span> camera<span class="token punctuation">)</span>
+      scene<span class="token punctuation">.</span><span class="token function">rotateY</span><span class="token punctuation">(</span><span class="token number">0.01</span><span class="token punctuation">)</span>
+      <span class="token function">requestAnimationFrame</span><span class="token punctuation">(</span>rotate<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">function</span> <span class="token function">control</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">const</span> control <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">OrbitControls</span><span class="token punctuation">(</span>camera<span class="token punctuation">,</span> a<span class="token punctuation">)</span>
+      control<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>demo06</p> <p>加载 gltf</p> <p>https://github.com/mrdoob/three.js/blob/master/examples/jsm/loaders/GLTFLoader.js</p> <p>可能需要解压  DRACOLoader</p> <p><a href="https://github.com/puxiao/threejs-tutorial/blob/main/24%20Three.js%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B9%8B%E5%8A%A0%E8%BD%BD.gLTF%E6%A8%A1%E5%9E%8B.md" target="_blank" rel="noopener noreferrer">参考<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.6f322a7c.js" defer></script><script src="/assets/js/2.5281df64.js" defer></script><script src="/assets/js/29.d446cc43.js" defer></script>
+  </body>
+</html>

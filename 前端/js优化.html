@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>js优化 | gyz418</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.7c4bcbe6.css" as="style"><link rel="preload" href="/assets/js/app.6f322a7c.js" as="script"><link rel="preload" href="/assets/js/2.5281df64.js" as="script"><link rel="preload" href="/assets/js/9.823e0afe.js" as="script"><link rel="prefetch" href="/assets/js/10.b5b78ec7.js"><link rel="prefetch" href="/assets/js/11.3979c63f.js"><link rel="prefetch" href="/assets/js/12.ad66bd03.js"><link rel="prefetch" href="/assets/js/13.8c156ce0.js"><link rel="prefetch" href="/assets/js/14.d5aaf7c9.js"><link rel="prefetch" href="/assets/js/15.744185ba.js"><link rel="prefetch" href="/assets/js/16.b223ec11.js"><link rel="prefetch" href="/assets/js/17.27940440.js"><link rel="prefetch" href="/assets/js/18.2561b5d6.js"><link rel="prefetch" href="/assets/js/19.bab52827.js"><link rel="prefetch" href="/assets/js/20.64459c18.js"><link rel="prefetch" href="/assets/js/21.95850c08.js"><link rel="prefetch" href="/assets/js/22.8b92906a.js"><link rel="prefetch" href="/assets/js/23.a2fee047.js"><link rel="prefetch" href="/assets/js/24.a1a3b298.js"><link rel="prefetch" href="/assets/js/25.ba19b2b6.js"><link rel="prefetch" href="/assets/js/26.753266fe.js"><link rel="prefetch" href="/assets/js/27.ee58b5d1.js"><link rel="prefetch" href="/assets/js/28.611ffe65.js"><link rel="prefetch" href="/assets/js/29.d446cc43.js"><link rel="prefetch" href="/assets/js/3.d5898f06.js"><link rel="prefetch" href="/assets/js/30.71c0d378.js"><link rel="prefetch" href="/assets/js/31.43e00d33.js"><link rel="prefetch" href="/assets/js/32.a6757d5d.js"><link rel="prefetch" href="/assets/js/33.bfb83c0e.js"><link rel="prefetch" href="/assets/js/34.564690e0.js"><link rel="prefetch" href="/assets/js/35.77a7c9e4.js"><link rel="prefetch" href="/assets/js/36.5e974fda.js"><link rel="prefetch" href="/assets/js/37.f0956a85.js"><link rel="prefetch" href="/assets/js/38.c42b9666.js"><link rel="prefetch" href="/assets/js/39.7262da55.js"><link rel="prefetch" href="/assets/js/4.eb70c47d.js"><link rel="prefetch" href="/assets/js/40.95d088a9.js"><link rel="prefetch" href="/assets/js/41.f7067891.js"><link rel="prefetch" href="/assets/js/42.12cf6162.js"><link rel="prefetch" href="/assets/js/43.7970973b.js"><link rel="prefetch" href="/assets/js/44.701b85aa.js"><link rel="prefetch" href="/assets/js/45.4c06d258.js"><link rel="prefetch" href="/assets/js/46.e5e18c20.js"><link rel="prefetch" href="/assets/js/47.5d0f9322.js"><link rel="prefetch" href="/assets/js/48.03ad2213.js"><link rel="prefetch" href="/assets/js/49.65826398.js"><link rel="prefetch" href="/assets/js/5.8e0377fa.js"><link rel="prefetch" href="/assets/js/50.8a4a5a58.js"><link rel="prefetch" href="/assets/js/6.49592538.js"><link rel="prefetch" href="/assets/js/7.c7371c19.js"><link rel="prefetch" href="/assets/js/8.78f8209a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7c4bcbe6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">gyz418</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/前端/es6.html" class="nav-link">
+  es6
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ts.html" class="nav-link">
+  ts
+</a></li><li class="dropdown-item"><!----> <a href="/前端/flutter.html" class="nav-link">
+  flutter
+</a></li><li class="dropdown-item"><!----> <a href="/前端/css.html" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/前端/git.html" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/前端/webpack.html" class="nav-link">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js优化.html" class="nav-link">
+  js优化
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue2源码.html" class="nav-link">
+  vue2源码
+</a></li><li class="dropdown-item"><!----> <a href="/前端/babel.html" class="nav-link">
+  babel
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue3.html" class="nav-link">
+  vue3
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js设计模式.html" class="nav-link">
+  js设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/前端/小程序.html" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/前端/package.json.html" class="nav-link">
+  package.json
+</a></li><li class="dropdown-item"><!----> <a href="/前端/github.html" class="nav-link">
+  github
+</a></li><li class="dropdown-item"><!----> <a href="/前端/eslint.html" class="nav-link">
+  eslint
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nestjs.html" class="nav-link">
+  nestjs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ueditor.html" class="nav-link">
+  ueditor
+</a></li><li class="dropdown-item"><!----> <a href="/typescript.html" class="nav-link">
+  typescript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端相关" class="dropdown-title"><span class="title">前端相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/gulp.html" class="nav-link">
+  gulp
+</a></li><li class="dropdown-item"><!----> <a href="/react.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/js-tools.html" class="nav-link">
+  js-tools
+</a></li><li class="dropdown-item"><!----> <a href="/js特效.html" class="nav-link">
+  js特效
+</a></li><li class="dropdown-item"><!----> <a href="/old.html" class="nav-link">
+  old
+</a></li><li class="dropdown-item"><!----> <a href="/js概念.html" class="nav-link">
+  js概念
+</a></li><li class="dropdown-item"><!----> <a href="/jest.html" class="nav-link">
+  jest
+</a></li><li class="dropdown-item"><!----> <a href="/微前端.html" class="nav-link">
+  微前端
+</a></li><li class="dropdown-item"><!----> <a href="/service worker.html" class="nav-link">
+  service worker
+</a></li><li class="dropdown-item"><!----> <a href="/deno.html" class="nav-link">
+  deno
+</a></li><li class="dropdown-item"><!----> <a href="/swiper.html" class="nav-link">
+  swiper
+</a></li><li class="dropdown-item"><!----> <a href="/nginx.html" class="nav-link">
+  nginx
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/chrome.html" class="nav-link">
+  chrome
+</a></li><li class="dropdown-item"><!----> <a href="/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-item"><!----> <a href="/webstorm.html" class="nav-link">
+  webstorm
+</a></li><li class="dropdown-item"><!----> <a href="/url.html" class="nav-link">
+  url
+</a></li><li class="dropdown-item"><!----> <a href="/pc.html" class="nav-link">
+  pc
+</a></li><li class="dropdown-item"><!----> <a href="/festival.html" class="nav-link">
+  festival
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/前端/es6.html" class="nav-link">
+  es6
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue.html" class="nav-link">
+  vue
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ts.html" class="nav-link">
+  ts
+</a></li><li class="dropdown-item"><!----> <a href="/前端/flutter.html" class="nav-link">
+  flutter
+</a></li><li class="dropdown-item"><!----> <a href="/前端/css.html" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/前端/git.html" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/前端/webpack.html" class="nav-link">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nodejs.html" class="nav-link">
+  nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js优化.html" class="nav-link">
+  js优化
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue2源码.html" class="nav-link">
+  vue2源码
+</a></li><li class="dropdown-item"><!----> <a href="/前端/babel.html" class="nav-link">
+  babel
+</a></li><li class="dropdown-item"><!----> <a href="/前端/vue3.html" class="nav-link">
+  vue3
+</a></li><li class="dropdown-item"><!----> <a href="/前端/js设计模式.html" class="nav-link">
+  js设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/前端/小程序.html" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/前端/package.json.html" class="nav-link">
+  package.json
+</a></li><li class="dropdown-item"><!----> <a href="/前端/github.html" class="nav-link">
+  github
+</a></li><li class="dropdown-item"><!----> <a href="/前端/eslint.html" class="nav-link">
+  eslint
+</a></li><li class="dropdown-item"><!----> <a href="/前端/nestjs.html" class="nav-link">
+  nestjs
+</a></li><li class="dropdown-item"><!----> <a href="/前端/ueditor.html" class="nav-link">
+  ueditor
+</a></li><li class="dropdown-item"><!----> <a href="/typescript.html" class="nav-link">
+  typescript
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端相关" class="dropdown-title"><span class="title">前端相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/gulp.html" class="nav-link">
+  gulp
+</a></li><li class="dropdown-item"><!----> <a href="/react.html" class="nav-link">
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/js-tools.html" class="nav-link">
+  js-tools
+</a></li><li class="dropdown-item"><!----> <a href="/js特效.html" class="nav-link">
+  js特效
+</a></li><li class="dropdown-item"><!----> <a href="/old.html" class="nav-link">
+  old
+</a></li><li class="dropdown-item"><!----> <a href="/js概念.html" class="nav-link">
+  js概念
+</a></li><li class="dropdown-item"><!----> <a href="/jest.html" class="nav-link">
+  jest
+</a></li><li class="dropdown-item"><!----> <a href="/微前端.html" class="nav-link">
+  微前端
+</a></li><li class="dropdown-item"><!----> <a href="/service worker.html" class="nav-link">
+  service worker
+</a></li><li class="dropdown-item"><!----> <a href="/deno.html" class="nav-link">
+  deno
+</a></li><li class="dropdown-item"><!----> <a href="/swiper.html" class="nav-link">
+  swiper
+</a></li><li class="dropdown-item"><!----> <a href="/nginx.html" class="nav-link">
+  nginx
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/chrome.html" class="nav-link">
+  chrome
+</a></li><li class="dropdown-item"><!----> <a href="/vscode.html" class="nav-link">
+  vscode
+</a></li><li class="dropdown-item"><!----> <a href="/webstorm.html" class="nav-link">
+  webstorm
+</a></li><li class="dropdown-item"><!----> <a href="/url.html" class="nav-link">
+  url
+</a></li><li class="dropdown-item"><!----> <a href="/pc.html" class="nav-link">
+  pc
+</a></li><li class="dropdown-item"><!----> <a href="/festival.html" class="nav-link">
+  festival
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>js优化</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#js优化" class="sidebar-link">js优化</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#图片" class="sidebar-link">图片</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#cdn" class="sidebar-link">cdn</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#gzip" class="sidebar-link">gzip</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#代码压缩" class="sidebar-link">代码压缩</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#webpack" class="sidebar-link">webpack</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#window-performance" class="sidebar-link">window.performance</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#fcp" class="sidebar-link">FCP</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#lighthouse" class="sidebar-link">lighthouse?</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#节流、防抖" class="sidebar-link">节流、防抖</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#图片懒加载原理" class="sidebar-link">图片懒加载原理</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#回流、重绘" class="sidebar-link">回流、重绘</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#dom性能优化" class="sidebar-link">dom性能优化</a></li><li class="sidebar-sub-header"><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#object-freeze" class="sidebar-link">Object.freeze()</a></li></ul></li><li><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#问题" class="sidebar-link">问题</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#白屏解决：" class="sidebar-link">白屏解决：</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#视频" class="sidebar-link">视频</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/%E5%89%8D%E7%AB%AF/js%E4%BC%98%E5%8C%96.html#书" class="sidebar-link">书</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="js优化"><a href="#js优化" class="header-anchor">#</a> js优化</h2> <h3 id="图片"><a href="#图片" class="header-anchor">#</a> 图片</h3> <p>雪碧图</p> <p>base64</p> <p>webp svg</p> <h3 id="cdn"><a href="#cdn" class="header-anchor">#</a> cdn</h3> <h3 id="gzip"><a href="#gzip" class="header-anchor">#</a> gzip</h3> <p>webpack4有 gzip压缩</p> <h3 id="代码压缩"><a href="#代码压缩" class="header-anchor">#</a> 代码压缩</h3> <h3 id="webpack"><a href="#webpack" class="header-anchor">#</a> webpack</h3> <h3 id="window-performance"><a href="#window-performance" class="header-anchor">#</a> window.performance</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> timingInfo <span class="token operator">=</span> window<span class="token punctuation">.</span>performance<span class="token punctuation">.</span>timing<span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+<span class="token string">&quot;TCP连接耗时&quot;</span><span class="token operator">:</span>timingInfo<span class="token punctuation">.</span>connectEnd <span class="token operator">-</span> timingInfo<span class="token punctuation">.</span>connectStart<span class="token punctuation">,</span>
+<span class="token string">&quot;DNS查询耗时&quot;</span><span class="token operator">:</span>timingInfo<span class="token punctuation">.</span>domainLookupEnd <span class="token operator">-</span> timingInfo<span class="token punctuation">.</span>domainLookupStart<span class="token punctuation">,</span>
+<span class="token string">&quot;获得⾸首字节耗费时间，也叫TTFB&quot;</span><span class="token operator">:</span>timingInfo<span class="token punctuation">.</span>responseStart <span class="token operator">-</span>
+timingInfo<span class="token punctuation">.</span>navigationStart<span class="token punctuation">,</span>
+<span class="token string">&quot;domReady时间&quot;</span><span class="token operator">:</span>timingInfo<span class="token punctuation">.</span>domContentLoadedEventStart <span class="token operator">-</span>
+timingInfo<span class="token punctuation">.</span>navigationStart<span class="token punctuation">,</span>
+<span class="token string">&quot;DOM资源下载&quot;</span><span class="token operator">:</span>timingInfo<span class="token punctuation">.</span>responseEnd <span class="token operator">-</span> timingInfo<span class="token punctuation">.</span>responseStart
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p><img src="/assets/img/4.9d8fc5c1.png" alt="image-20200731155043970"></p> <h3 id="fcp"><a href="#fcp" class="header-anchor">#</a> FCP</h3> <p>FP:首次渲染时间</p> <p>FCP：白屏:浏览器首次渲染任何文本、图像等的时间</p> <p>FMP：有意义的绘制，主要内容出现时</p> <p>TTI：用户可交互时间，优化重点</p> <p>FPS:  最优帧率60FPS 越接近这个值，页面流畅度越高  ctrl+shift+p  show fps</p> <h3 id="lighthouse"><a href="#lighthouse" class="header-anchor">#</a> lighthouse?</h3> <p>chrome插件</p> <p>npm i -g lighthouse</p> <p>lighthouse xxx.com</p> <h3 id="节流、防抖"><a href="#节流、防抖" class="header-anchor">#</a> 节流、防抖</h3> <p>代码在es6.md</p> <h3 id="图片懒加载原理"><a href="#图片懒加载原理" class="header-anchor">#</a> 图片懒加载原理</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 监听Scroll事件</span>
+window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'scroll'</span><span class="token punctuation">,</span> lazyload<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">lazyload</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 获取所有的图⽚片标签</span>
+  <span class="token keyword">const</span> imgs <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementsByTagName</span><span class="token punctuation">(</span><span class="token string">'img'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token comment">// 获取可视区域的⾼高度</span>
+  <span class="token keyword">const</span> viewHeight <span class="token operator">=</span> window<span class="token punctuation">.</span>innerHeight <span class="token operator">||</span>
+    document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>clientHeight<span class="token punctuation">;</span>
+  <span class="token comment">// num用于统计当前显示到了哪⼀一张图⽚片，避免每次都从第⼀一张图片开始检查是否露出</span>
+  <span class="token keyword">let</span> num <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> num<span class="token punctuation">;</span> i <span class="token operator">&lt;</span> imgs<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// ⽤用可视区域高度减去元素顶部距离可视区域顶部的⾼高度</span>
+    <span class="token keyword">let</span> distance <span class="token operator">=</span> viewHeight <span class="token operator">-</span> imgs<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">getBoundingClientRect</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>top<span class="token punctuation">;</span>
+    <span class="token comment">// 如果可视区域⾼高度⼤大于等于元素顶部距离可视区域顶部的⾼高度，说明元素露露出</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>distance <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 给元素写入真实的src，展示图⽚片</span>
+      imgs<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>src <span class="token operator">=</span> imgs<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token string">'data-src'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">// 前i张图⽚片已经加载完毕，下次从第i+1张开始检查是否露露出</span>
+      num <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="回流、重绘"><a href="#回流、重绘" class="header-anchor">#</a> 回流、重绘</h3> <ol><li>回流：修改DOM的元素宽高，隐藏等，改变了元素的位置，回流必重绘</li> <li>重绘：改颜色</li></ol> <h3 id="dom性能优化"><a href="#dom性能优化" class="header-anchor">#</a> dom性能优化</h3> <p>少操作dom，用fragment，虚拟dom</p> <h3 id="object-freeze"><a href="#object-freeze" class="header-anchor">#</a> Object.freeze()</h3> <p>vue 冻结数据</p> <h2 id="问题"><a href="#问题" class="header-anchor">#</a> 问题</h2> <ol><li><p>ETags</p></li> <li><p>延迟加载、预加载、懒加载</p></li> <li><p>chrome的performance</p> <p>Idle 表示空闲性能</p></li> <li><p>dns-prefetch(淘宝例子)</p></li> <li><p>缓存控制</p> <ol><li>disk cache  硬盘缓存</li> <li>memory cache 内存缓存</li></ol></li> <li><p>http2</p></li> <li><p>event-loop</p></li> <li><p>push cache http2的缓存</p></li></ol> <h2 id="白屏解决："><a href="#白屏解决：" class="header-anchor">#</a> 白屏解决：</h2> <p>骨架屏 page-skeleton-webpack-plugin,</p> <p>插件依赖 html-webpack-plugin 3.x，   webpack4的 html-webpack-plugin是4.x 骨架屏插件安装失败</p> <p>针对vue的骨架屏  vue-skeleton-webpack-plugin 待实践</p> <h2 id="视频"><a href="#视频" class="header-anchor">#</a> 视频</h2> <p>发现百度网盘慕课网有一些优化的视频。</p> <h2 id="书"><a href="#书" class="header-anchor">#</a> 书</h2> <p>Web 前端性能优化 陈铎鑫 2020 这书找不到</p> <p>高效前端：Web高效编程与优化实践  2018</p> <p>大型网站性能检测、分析与优化  2016-6</p> <p>web性能权威指南 2013</p> <p>编程的原则 改善代码质量的101个方法</p> <p>暂停</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.6f322a7c.js" defer></script><script src="/assets/js/2.5281df64.js" defer></script><script src="/assets/js/9.823e0afe.js" defer></script>
+  </body>
+</html>
